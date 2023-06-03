@@ -1,0 +1,12 @@
+<1.1>
+- Now your character can spot obstacles when you're in the middle of a parkour move to avoid getting through solid props/walls
+- You can either tap or keep pressing the key down and your character will keep parkouring
+- Added some new functions in the config file: CanBeginParkour, ParkourBegin, ParkourEnd. They'll help you customize the script to your liking
+- Move list remade with some changes to use with the new functions
+- No more sinking into the ground when you jump to grab a ledge
+- Your character now has a better sense of their surroundings. No more weird jumps or moves
+- Jumping is now correctly disabled to avoid any issues
+- Fixed ragdolls, they won't send your character flying anymore, unfortunately...
+- Resolved a server bug that was messing up tackles
+<1.0>
+- Initial Release
