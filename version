@@ -1,3 +1,9 @@
+<1.2.2>
+- The script now works on servers using `sv_entityLockdown` (relaxed or strict)
+- No more ending up inside the wall you're trying to parkour, moves now start at the right distance from the obstacle whatever your FPS
+- Moving left or right while hanging on a ledge is now smooth and goes as far as the animation suggests
+- Fixed other players seeing you stuck in place or going through the obstacle during a parkour move
+- Fixed another player's parkour move being able to cancel yours
 <1.2>
 - Timing adjusted for spotting obstacles when you’re in the middle of a parkour move to avoid inconsistencies
 - Fixed issues with fences not being correctly detected
